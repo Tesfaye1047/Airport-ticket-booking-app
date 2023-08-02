@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+} 
+/* this is the navigation bar div */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #1114;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all 1s ease;
+}
+.navbar ul li a:hover{
+   color: green;
+   text-decoration: !important;
+}
+.logo{
+    margin-left :0px;
+    margin-right: 450px;
+    color: white;
+    display: flex;
+}
+#bookimg{
+    background-image: url("hostesses.jpg");
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.booki{
+    margin-top: 10px;
+    
+
+}
+#booki h2{
+    text-align: center;
+    
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+#booki p{
+    font-family: sans-serif;
+    text-align: center;
+}
+#our{
+    
+margin-right: 100px;
+}
+.book{
+    border: 2px solid none ;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 10px;
+    box-shadow: -2px 2px 2px #1113, 2px -2px 2px #1113;
+    border-radius: 7px;
+    overflow-x: hidden;
+
+}
+.book:hover{
+box-shadow: -2px 2px 5px #1113, 2px -2px 5px #1113;
+}
+.book p{
+    padding: 15px;
+    background-color: #1112;
+}
+
+.our{
+
+    margin-top:50px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+#img{
+    margin-left: 32%;
+
+}
+.plane{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+}
+#goo{
+   
+    display: flex;
+    border: 2px solid black;
+    margin-right: 20px;
+    border: none;
+    box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+    width: 300px;
+     height: 65px;
+     border-radius: 7px;
+    padding: 14px;
+    
+}
+
+#come{
+    
+    display: flex;
+    border: 2px solid black;
+     border: none;
+     width: 300px;
+     height: 65px;
+    box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+    border-radius: 7px;
+    padding: 14px;
+    
+
+}
+#cometxt {
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+}
+#gootxt {
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+}
+
+#goo img{
+    height: 32px;
+    width: 32px;
+    margin: 5px;
+}
+#come img{
+    height: 32px;
+    width: 32px;
+    margin: 5px;
+}
+#pass{
+    border: 2px solid none;
+    width: 300px;
+    height: 65px;
+    padding: 10px;
+    border-radius: 7px;
+   box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+   margin-right: 20px;
+}
+.pass{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+#select{
+    border: none;
+}
+#pass label{
+    margin-right: 20px;
+}
+#class1{
+    border: 2px solid none;
+    width: 300px;
+    height: 65px;
+    padding: 10px;
+    border-radius: 7px;
+   box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+}
+#class1 label{
+    margin-right: 20px;
+}
+
+.name{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+#first{
+   
+    
+    border: 2px solid black;
+    margin-right: 20px;
+    border: none;
+    box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+    width: 300px;
+     height: 65px;
+     border-radius: 7px;
+    padding: 14px;
+    
+}
+
+#last{
+    
+    
+    border: 2px solid black;
+     border: none;
+     width: 300px;
+     height: 65px;
+    box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+    border-radius: 7px;
+    padding: 14px;
+    
+
+}
+#ftxt{
+border: none;
+width: 200px;
+height: 40px;
+}
+#ltxt{
+    border: none;
+    width: 200px;
+height: 40px;
+}
+#depart{
+    border: 2px solid none;
+    width: 300px;
+    height: 65px;
+    padding: 10px;
+    border-radius: 7px;
+   box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+
+}
+#return{
+    border: 2px solid none;
+    width: 300px;
+    height: 65px;
+    padding: 10px;
+    border-radius: 7px;
+   box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+   margin-left: 20px;
+
+}
+#depart img{
+    height: 32px;
+    width: 32px;
+    margin: 5px;
+}
+#return img{
+    height: 32px;
+    width: 32px;
+    margin: 5px;
+}
+.calander{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+
+}
+.payment{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+
+}
+#transaction {
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+}
+#transaction{   
+    border: 2px solid black;
+
+    margin-right: 20px;
+    border: none;
+    box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+    width: 300px;
+     height: 65px;
+     border-radius: 7px;
+    padding: 14px;
+    
+}
+.transaction{
+    border: none;
+
+}
+#bank{   
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: none;
+    box-shadow:-2px 2px 2px #1113, 2px -2px 2px #1113 ;
+    width: 300px;
+     height: 65px;
+     border-radius: 7px;
+    padding: 14px;
+    
+}
+#oop{
+    border: none;
+}
+
+
+#rtxt{
+    margin-left: 10px;
+     border: none;
+}
+#dtxt{
+    
+    margin-left: 20px;
+border: none;
+}
+.book label{
+    color: green;
+}
+.calander button{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 40px;
+    width: 120px;
+    height: 60px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.calander button:hover{
+    color: green;
+    background-color: white;
+    box-shadow:-2px 2px 2px green, 2px -2px 2px green ;
+}

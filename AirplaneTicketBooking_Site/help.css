@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+} 
+/* this is the navigation bar div */
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1114;
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 20px 0px;
+}
+.navbar ul li{
+	font-family: century;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 25px;
+	transition: all 1s ease;
+}
+.navbar ul li a:hover{
+   color: green;
+   text-decoration: !important;
+}
+.logo{
+	margin-left :0px;
+	margin-right: 450px;
+	color: white;
+	display: flex;
+}#our{
+	display: flex;
+
+}
+
+.our{
+
+	margin-top: 30px;
+	background-color: green;
+	color: white;
+	font-size: 20px;
+}
+#img{
+	margin-left: 32%;
+}
+
+#call{
+	display: flex;
+}
+#call div{
+         border: 2px solid none;
+         width: 300px;
+}
+.tabel{
+	border:  2px solid none ;
+	width: 700px;
+   margin-left: 24%;
+   margin-top: 30px;
+   box-shadow: 2px -2px 2px gray, -2px -2px 2px gray;
+   padding: 10px;
+}
+#call2{
+	display: flex;
+}
+#call2 div{
+         border: 2px solid none;
+         width: 300px;
+}
+#call3{
+	display: flex;
+}
+#call3 div{
+         border: 2px solid none;
+         width: 300px;
+}
+#call4{
+	display: flex;
+}
+#call4 div{
+         border: 2px solid none;
+         width: 300px;
+}
+#tabel h1{
+padding: 7px;
+font-size: 30px;
+color: green;
+font-family: sans-serif;
+background-color: #1112;
+}
+.ss label{
+	font-weight: bold;
+
+}
+#tabel div {
+margin-bottom: 20px;
+}
